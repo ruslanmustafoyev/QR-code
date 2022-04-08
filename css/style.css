@@ -1,0 +1,129 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.container{
+    width: 1300px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+img{
+    display: inline-block;
+}
+
+.main-container{
+    margin-top: 30px;
+   height:700px;
+   background-image: url(../images/background.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.block{
+    margin: 0;
+    padding: 0 20px;
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+}
+
+
+.block-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.divide{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    width: 30px;
+    background-color:rgb(164, 182, 214);
+    height: 4px;
+    margin-bottom:-50px;
+}
+.title{
+    padding-top: 40px;
+}
+.frams{
+    margin: 0px;
+    padding: 0;
+    color: rgb(63, 101, 173);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+.frams-desc{
+    margin: 0;
+    padding: 0;
+    color: black;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.block-items{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items:center;
+}
+.flight+.flight{
+    margin-left:50px;
+}
+.flight>p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: black;
+    opacity: 0.5;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: black;
+}
+
+.qrcode{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.passengers{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 130px;
+}
+.passengers-item+.passengers-item{
+    margin-top:10px;
+}
+.name{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+    opacity: 0.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name-item{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
